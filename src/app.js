@@ -18,17 +18,18 @@ window.onload = function() {
       "during my lunch",
       "while I was praying"
     ];
-
+    let randomElement = function(arreglo) {
+      l;
+    };
     //Variables con Math.random y Math.floor: para generar números aleatorios y seleccionar elementos al azar de los array who,action,what,when.
     let numwho = Math.floor(Math.random() * who.length);
     //La variable randomWho se utiliza para almacenar un elemento aleatorio seleccionado del array who lo mismo con las demás variables y arrays.
-    let randomWho = who[numwho];
+
     let numaction = Math.floor(Math.random() * action.length);
-    let randomAction = action[numaction];
+
     let numwhat = Math.floor(Math.random() * what.length);
-    let randomWhat = what[numwhat];
+
     let numwhen = Math.floor(Math.random() * when.length);
-    let randomWhen = when[numwhen];
 
     //Let excuse: Concatenar las variables en una sola cadena.
     let excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
